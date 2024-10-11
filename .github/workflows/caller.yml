@@ -1,1 +1,15 @@
 name: Caller workflow
+
+on:
+    workflow_dispatch: 
+        inputs:
+            name:
+                default: "CallerName"
+                required: true
+                type: string
+
+jobs:
+    calling:
+        uses: belcebus/test-core-input/.github/workflows/blank.yml@main
+        with: 
+            nombreca: ${{inputs.name}}
