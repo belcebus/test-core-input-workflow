@@ -39,4 +39,4 @@ jobs:
             console.log("-------------")
             //console.log(core.getInput())
             console.log("-------------")
-            console.log(context.inputs.nombre)
+            console.log(context.inputs["nombre"])
