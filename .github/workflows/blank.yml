@@ -36,3 +36,5 @@ jobs:
             console.log(context)
             console.log("-------------")
             console.log(context.payload)
+            console.log("-------------")
+            console.log(context.payload.inputs)
