@@ -10,6 +10,6 @@ on:
 
 jobs:
   calling:
-    uses: belcebus/test-core-input/.github/workflows/blank.yml@main
+    uses: belcebus/test-core-input-workflow/.github/workflows/blank.yml@main
     with: 
       nombreca: ${{inputs.name}}
