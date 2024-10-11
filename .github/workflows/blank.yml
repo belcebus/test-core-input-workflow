@@ -35,8 +35,4 @@ jobs:
           script: |
             console.log(context)
             console.log("-------------")
-            console.log(core)
-            console.log("-------------")
-            //console.log(core.getInput())
-            console.log("-------------")
-            console.log(context.payload.inputs["nombre"])
+            console.log(context.payload)
