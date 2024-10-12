@@ -47,6 +47,5 @@ jobs:
           script: |
             console.log(context)
             console.log("-------------")
-            console.log(context.payload)
+            console.log(core)
             console.log("-------------")
-            console.log(context.payload.inputs)
