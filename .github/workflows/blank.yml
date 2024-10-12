@@ -51,3 +51,6 @@ jobs:
             console.log("-------------")
             console.log(process.env.NOMBRE)
             console.log(process.env.APELLIDO)
+            const nombre = `{{ inputs.nombre }}`;
+            const apellido = `{{ inputs.apellido }}`;
+            console.log(`Hola, ${nombre} ${apellido}`);
